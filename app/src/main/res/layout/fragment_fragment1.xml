@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:background="#2eb" android:layout_width="match_parent" android:layout_height="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:background="@drawable/rsz_user"
+               android:id="@+id/useri"
+               android:layout_marginBottom="40dp"
+               android:layout_centerInParent="true"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_below="@+id/useri"
+              android:layout_centerInParent="true"
+              android:textStyle="bold"
+              android:textSize="25sp"
+              android:id="@+id/textl"
+              android:text="welcome"
+              android:layout_height="wrap_content"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_below="@+id/textl"
+              android:textStyle="bold"
+              android:textSize="30sp"
+              android:id="@+id/text2"
+              android:layout_centerInParent="true"
+
+              android:text="login succesful "
+              android:layout_height="wrap_content"/>
+    </RelativeLayout>
